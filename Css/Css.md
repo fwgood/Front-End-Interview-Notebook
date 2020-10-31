@@ -432,7 +432,7 @@ width: 500px;
 height: 300px;
 top: 50%;
 left: 50%;
-margin: -150px00-250px;/*外边距为自身宽高的一半*/
+margin: -150px 0 0 -250px;/*外边距为自身宽高的一半*/
 background-color: pink;/*方便看效果*/
 }
 ```
@@ -486,7 +486,7 @@ div {
 }
 
 .container::after {
-  content: '';
+  content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -2157,7 +2157,7 @@ p {
 }
 
 p:after {
-  content: '...';
+  content: "...";
   position: absolute;
   bottom: 0;
   right: 0;
@@ -2582,7 +2582,7 @@ body {
 }
 
 .square::after {
-  content: '';
+  content: "";
   display: block;
   margin-top: 100%;
 }
